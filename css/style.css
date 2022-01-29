@@ -12,3 +12,23 @@ button{
 #reundo{
     transform: rotateY(180deg);
 }
+
+.menu{
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 10fr;
+}
+#text{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+    margin-right: 40px;
+    display: flex;
+    justify-content: right;
+    place-items: center;
+    font-size: 70px;
+    transition-duration: 1s;
+}
