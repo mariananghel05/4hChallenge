@@ -10,8 +10,6 @@ document.querySelector('#pen').addEventListener('click', ()=>{
         paint.pen();
     else
         paint.removeCanvasEvents();
-
-        console.log(paint.eventFunctions)
     });
 
 document.querySelector('#undo').addEventListener('click', ()=>{
