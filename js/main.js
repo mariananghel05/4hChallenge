@@ -49,6 +49,7 @@ function tool(){
     color.style.width = "100px";
     thick.placeholder = "Pick a thickness";
     thick.style.width = "100px";
+    thick.setAttribute("id", "thick");
     container.style.position = "absolute";
     container.style.marginTop = "4%";
     container.style.display = "grid";
