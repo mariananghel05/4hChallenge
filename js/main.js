@@ -50,6 +50,7 @@ function tool(){
     thick.placeholder = "Pick a thickness";
     thick.style.width = "100px";
     container.style.position = "absolute";
+    container.style.marginTop = "4%";
     container.style.display = "grid";
     container.style.gridTemplateColumns = "1fr";
     container.style.gridTemplateRows = "1fr 1fr";
