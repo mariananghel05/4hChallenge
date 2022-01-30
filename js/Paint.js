@@ -58,10 +58,12 @@ class Paint{
         this.canvas.addEventListener('mousedown', this.penStartDraw);
         this.canvas.addEventListener('mouseup', this.penStopDraw);
         this.canvas.addEventListener('mousemove', this.penDraw);
+        this.canvas.addEventListener('mouseleave', this.penStopDraw);
 
         this.eventFunctions.push({"name":'mousedown', "method":this.penStartDraw});
         this.eventFunctions.push({"name":'mouseup', "method":this.penStopDraw});
         this.eventFunctions.push({"name":'mousemove', "method":this.penDraw});
+        this.eventFunctions.push({"name":'mouseleave', "method":this.penStopDraw});
     }
     penDraw = e=>{
         if(!this.penDrawing) 
