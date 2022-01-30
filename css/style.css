@@ -32,3 +32,13 @@ button{
     font-size: 70px;
     transition-duration: 1s;
 }
+
+
+@media only screen and (max-width: 600px) {
+    #text {
+      font-size: 20px;
+    }
+    #thick{
+        margin-top: 30px;
+    }
+  }
